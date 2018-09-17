@@ -1,0 +1,21 @@
+package ds.doublylinkedlist;
+
+public class DoublyLinkedList {
+	
+	private Node first;
+	private Node last;
+	
+	public DoublyLinkedList(){
+		first=null;
+		last=null;
+	}
+	
+	public boolean isEmpty(){
+		return (first==null);
+	}
+	
+	public void insertFirst(){
+		
+	}
+
+}

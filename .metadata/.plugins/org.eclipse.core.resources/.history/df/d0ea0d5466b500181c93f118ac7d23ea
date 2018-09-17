@@ -1,0 +1,7 @@
+package ds.stack;
+
+public class Stack {
+	
+	private int maxsize; //size the stack
+
+}

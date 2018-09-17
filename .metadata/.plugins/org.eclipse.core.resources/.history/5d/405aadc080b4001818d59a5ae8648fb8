@@ -1,0 +1,16 @@
+
+public class Earth1 {
+
+	public static void main(String[] args) {
+		NewHuman human1= new NewHuman();
+		NewHuman human2= new NewHuman();
+		NewHuman human3= new NewHuman();
+		
+		human1.speak();
+		human2.speak();
+		human3.speak();
+		
+
+	}
+
+}

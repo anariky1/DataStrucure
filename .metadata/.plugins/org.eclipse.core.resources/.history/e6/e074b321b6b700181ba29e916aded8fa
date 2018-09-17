@@ -1,0 +1,8 @@
+package ds.doublylinkedlist;
+
+public class DoublyLinkedList {
+	
+	private Node first;
+	private Node last;
+
+}

@@ -1,0 +1,53 @@
+package ds.circularlinkedlist;
+
+public class CircularLinkedList {
+	
+	private Node first;
+	private Node last;
+	
+	public CircularLinkedList(){
+		first=null;
+		last=null;
+		
+	}
+	
+	private boolean isEmpty() {
+		return first==null;
+	}
+	
+	
+	public void insertFirst(int data){
+		Node newNode = new Node();
+		newNode.data=data;
+		
+		if(isEmpty()){
+			last=newNode;
+		}
+		
+		newNode.next =first;  //old first will be new node's next
+		first=newNode;  //first place
+	}
+	
+	public void insertLast(int data){
+		Node newNode = new Node();
+		newNode.data=data;
+		
+		if(isEmpty()){
+			first=newNode;
+		}else{
+			last.next=newNode;    //new node will be last node's next
+			last=newNode; // we set the new node to the last one in the list
+		}
+		
+	}
+	
+	
+	public void deleteFirst(){
+		
+	}
+
+
+	
+	
+
+}

@@ -1,0 +1,18 @@
+package adt;
+
+public class App {
+
+	public static void main(String[] args) {
+		Counter MyCounter = new Counter("Ananth Priya");
+		MyCounter.increment();
+		MyCounter.increment();
+		MyCounter.increment();
+		MyCounter.increment();
+		
+		System.out.println(MyCounter.getCurrentValue());
+		
+		MyCounter.toString();
+        
+	}
+
+}

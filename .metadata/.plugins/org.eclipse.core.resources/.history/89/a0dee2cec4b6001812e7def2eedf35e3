@@ -1,0 +1,33 @@
+package ds.queue;
+
+public class Queue_2018 {
+	
+	private int maxSize;
+	private long[] queArray;
+	private int front;
+	private int rear;
+	private int nItems;
+	
+	public Queue_2018(int maxSize){
+		this.maxSize=maxSize;
+		this.queArray=new long[maxSize];
+		front=0;
+		rear=-1;
+		nItems=0;					
+	}
+	
+	public void Insert(long j){
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

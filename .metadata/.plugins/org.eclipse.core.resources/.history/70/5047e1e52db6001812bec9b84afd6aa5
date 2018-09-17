@@ -1,0 +1,11 @@
+package ds.queue;
+
+public class Queue {
+	
+	private int maxSize(); //size of the stack
+	private long[] queArray; //container storing list of items
+	private int front; //index position for the element in the front;
+	private int rear; //index position for the element at the back of the line;
+	
+
+}

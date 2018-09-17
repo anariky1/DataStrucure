@@ -1,0 +1,15 @@
+package ds.queue;
+
+public class App_2018 {
+
+	public static void main(String[] args) {
+		Queue_2018 myQueue = new Queue_2018(5);
+		myQueue.Insert(5);
+		myQueue.Insert(10);
+		myQueue.Insert(15);
+		myQueue.Insert(20);
+		myQueue.Insert(25);
+		
+
+	}
+}

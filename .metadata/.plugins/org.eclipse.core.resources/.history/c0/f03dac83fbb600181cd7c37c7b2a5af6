@@ -1,0 +1,9 @@
+package ds.singlyLinkedList;
+
+public class SinglyLinkedList {
+		
+	  private Node first;
+
+	}
+
+

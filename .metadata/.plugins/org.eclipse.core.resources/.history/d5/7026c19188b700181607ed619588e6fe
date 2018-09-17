@@ -1,0 +1,9 @@
+package ds.circularlinkedlist;
+
+public class CircularLinkedList {
+	
+	private Node first;
+	private Node Last;
+	
+
+}

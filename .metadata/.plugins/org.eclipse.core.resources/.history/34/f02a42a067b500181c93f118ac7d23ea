@@ -1,0 +1,17 @@
+package ds.stack;
+
+public class Stack {
+	
+	private int maxsize; //size the stack
+	private long[] stackArray; //container storing list of items
+	private int top;      //represent the index position of last item
+	
+	
+	public Stack(int maxsize){
+		this.maxsize=maxsize;
+		this.stackArray=new long[maxsize];
+		this.top=-1;
+		
+	}
+
+}

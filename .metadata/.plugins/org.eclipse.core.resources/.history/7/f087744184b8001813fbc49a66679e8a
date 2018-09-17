@@ -1,0 +1,17 @@
+package ds.doublylinkedlist;
+
+public class App {
+
+	public static void main(String[] args) {
+		DoublyLinkedList theList= new DoublyLinkedList();
+		theList.insertFirst(22);
+
+	    /*theList.insertAfter(33, 1);
+		
+		//theList.deleteLast();*/
+
+		theList.displayForward();
+		
+	}
+
+}

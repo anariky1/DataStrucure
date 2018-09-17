@@ -1,0 +1,9 @@
+
+public class Animal {
+	
+	int age;
+	String gender;
+	int weight;
+	
+
+}

@@ -1,0 +1,9 @@
+package ds.queue;
+
+public class Queue {
+	
+	private int maxSize(); //size of the stack
+	private long[] queArray; //container storing list of items
+	
+
+}

@@ -1,0 +1,11 @@
+
+public class Earth1 {
+
+	public static void main(String[] args) {
+		NewHuman human1= new NewHuman();
+		NewHuman human2= new NewHuman();
+		NewHuman human3= new NewHuman();
+
+	}
+
+}

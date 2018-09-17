@@ -1,0 +1,15 @@
+package ds.stack;
+
+public class Stack_Practise {
+    int maxSize;
+    long Stack_Practise[];
+    int top;
+    
+    public Stack_Practise(int maxSize){
+    	this.maxSize=maxSize;
+    	this.Stack_Practise=new long[maxSize];
+    	top=-1;
+    }
+    
+
+}

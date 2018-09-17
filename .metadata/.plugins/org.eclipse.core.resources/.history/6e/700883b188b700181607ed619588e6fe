@@ -1,0 +1,20 @@
+package ds.circularlinkedlist;
+
+public class CircularLinkedList {
+	
+	private Node first;
+	private Node Last;
+	
+	public CircularLinkedList(){
+		first=null;
+		Last=null;
+		
+	}
+	
+	
+	public void insertFirst(int data){
+		
+	}
+	
+
+}
